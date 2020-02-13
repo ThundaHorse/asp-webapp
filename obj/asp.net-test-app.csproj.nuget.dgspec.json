@@ -1,31 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThunderHorse\\source\\repos\\asp.net-test-app\\asp.net-test-app\\asp.net-test-app.csproj": {}
+    "/Users/abrahamkim/Desktop/asp-webapp/asp.net-test-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThunderHorse\\source\\repos\\asp.net-test-app\\asp.net-test-app\\asp.net-test-app.csproj": {
+    "/Users/abrahamkim/Desktop/asp-webapp/asp.net-test-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThunderHorse\\source\\repos\\asp.net-test-app\\asp.net-test-app\\asp.net-test-app.csproj",
+        "projectUniqueName": "/Users/abrahamkim/Desktop/asp-webapp/asp.net-test-app.csproj",
         "projectName": "asp.net-test-app",
-        "projectPath": "C:\\Users\\ThunderHorse\\source\\repos\\asp.net-test-app\\asp.net-test-app\\asp.net-test-app.csproj",
-        "packagesPath": "C:\\Users\\ThunderHorse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThunderHorse\\source\\repos\\asp.net-test-app\\asp.net-test-app\\obj\\",
+        "projectPath": "/Users/abrahamkim/Desktop/asp-webapp/asp.net-test-app.csproj",
+        "packagesPath": "/Users/abrahamkim/.nuget/packages/",
+        "outputPath": "/Users/abrahamkim/Desktop/asp-webapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ThunderHorse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/abrahamkim/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -36,15 +34,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -55,7 +45,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }
     }

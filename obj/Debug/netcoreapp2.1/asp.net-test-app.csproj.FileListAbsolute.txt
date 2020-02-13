@@ -1,0 +1,3 @@
+/Users/abrahamkim/Desktop/asp-webapp/obj/Debug/netcoreapp2.1/asp.net-test-app.csprojAssemblyReference.cache
+/Users/abrahamkim/Desktop/asp-webapp/obj/Debug/netcoreapp2.1/asp.net-test-app.AssemblyInfoInputs.cache
+/Users/abrahamkim/Desktop/asp-webapp/obj/Debug/netcoreapp2.1/asp.net-test-app.AssemblyInfo.cs
